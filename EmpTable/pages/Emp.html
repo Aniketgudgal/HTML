@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: rgb(197, 208, 186);
+            padding: 5px 10px;
+            border-radius: 30px;
+            margin: auto;
+            margin-top: 10px;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        .bar{
+            margin: auto;
+            margin: 10px;
+            height: 60px;
+            border-radius: 10px;
+            display: flex;
+            gap: 10px;
+            
+        }
+        p{
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .empimg
+        {
+
+            padding: 3px;
+        }
+        .button{
+            margin-left: auto;
+            padding: 1px;
+            border-radius: 10px;
+            margin-right: 3px;
+            border: 2px solid oklch(37.948% 0.04294 19.198);
+            min-width:80px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+        button:hover{
+            background-color: brown;
+            transform: scale(1.1);
+        }
+
+        table, th,td{
+            padding: 50px;
+            border-collapse: collapse;
+        }  
+       th, td{
+        border-bottom: 1px;
+        padding: 50px;
+        text-align: left;
+         border-bottom: 1px solid #291d1d; 
+          border-left: none;  /* remove vertical left border */
+      border-right: none;
+       }
+        th{
+           margin-left: 5px;
+           min-width: 50px;
+           border: 1px solid #000;
+           border-left: none;
+           border-right: none;
+           padding: 2px;
+            border-bottom: 2px solid #171f17;
+            background-color: rgb(132, 169, 195);
+        }
+        td{
+            min-width: 50px;
+            padding: 5px;
+            border-bottom: #171f17;
+            border: 1px solid #000;
+            border-left: none;
+            border-right: none;
+        }   
+        tr:nth-child(even){
+            background-color: rgb(166, 205, 205);
+        } 
+        table{
+            margin: auto;
+            margin-top: 10px; 
+            border-collapse: collapse;
+            background-color: rgb(136, 160, 149);
+        }
+         tr:last-child td {
+      border-bottom: none; 
+      border-top: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bar">
+            <img src="/icons/emp.png" class = "empimg" alt="emp image">
+           <p class="pa">All Employee</p>
+            <button class="button">Add</button>
+        </div>
+    </div>
+
+            <table class = "table">
+                <thead class="head">
+                    <th>Sr .no</th>
+                    <th></th>
+                    <th>filename<span>&#8593;</span> <span>&#8595;</span></th>
+                    <th>Shared to <span>&#8593;</span> <span>&#8595;</span></th>
+                    <th>Folder  <span>&#8593;</span> <span>&#8595;</span></th>
+                    <th>Modified</th>
+                    <th></th>
+                </thead>
+                <tbody class="">
+                    <tr>
+                        <td>1</td>
+                        <td> <input type="checkbox"></td>
+                        <td><span>&#128193; image</span></td>
+                        <td>aniket gudgal</td>
+                        <td>Policy</td>
+                        <td>10/04/2023</td>
+                        <td>💬 ⬇️</td>
+                    </tr>
+                     <tr>
+                        <td>2</td>
+                        <td> <input type="checkbox"></td>
+                        <td><span>&#128193; image</span></td>
+                        <td>yd</td>
+                        <td>Policy</td>
+                        <td>10/04/2023</td>
+                        <td>💬 ⬇️</td>
+                    </tr>
+                     <tr>
+                        <td>3</td>
+                        <td> <input type="checkbox"></td>
+                        <td><span>&#128193; image</span></td>
+                        <td>Gokul</td>
+                        <td>Policy</td>
+                        <td>10/04/2023</td>
+                        <td>💬 ⬇️</td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td> <input type="checkbox"></td>
+                        <td><span>&#128193; image</span></td>
+                        <td>omkar</td>
+                        <td>Policy</td>
+                        <td>10/04/2023</td>
+                        <td>💬 ⬇️</td>
+                    </tr>
+                </tbody>
+            </table>
+</body>
+</html>
