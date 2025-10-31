@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="../img/iconMain.png" type="image/x-icon">
+   <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="box">
+        
+        <div class="form-data">
+            <h1>Registration</h1>
+            <table>
+                <tr>
+                    <td><label for="fname">Full Name</label></td>
+                    <td><label for="username">Username</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" autocomplete="off" placeholder="Full Name"></td>
+                    <td><input type="text" autocomplete="off" placeholder="User Name"></td>
+                </tr>
+
+                 <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><label for="phone">Phone Number</label></td>
+                </tr>
+                <tr>
+                    <td><input type="email" autocomplete="off" placeholder="Enter your email"></td>
+                    <td><input type="number" autocomplete="off" placeholder="Enter your number"></td>
+                </tr>
+
+                 <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><label for="cpassword">Confirm Password</label></td>
+                </tr>
+                <tr>
+                    <td><input type="password" autocomplete="off" placeholder="Enter your password"></td>
+                    <td><input type="password" autocomplete="off" placeholder="confirm password"></td>
+                </tr>
+            </table>
+            <div class="genderclass">
+            <table >
+                <tr>
+                    <td colspan="3"><label for="gender" id="genderlabel">Gender</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" value="male" name="gender" id = "genderinput"><label for="gender" id="gender">male</label></td>
+                    <td><input type="radio" name="gender" id="genderinput" value="female"><label for="gender" id="gender">Female</label></td>
+                    <td><input type="radio" name="gender" id="genderinput"><label for="not" id="gender">prefer not to say</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="button"><input type="button" value="Register"></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

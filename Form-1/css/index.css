@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 87vh;
+  background: linear-gradient(to bottom right, #59bee5, #ce81f4);
+
+}
+.box{
+    width: 50%;
+    min-height: 120px;
+    border: 1px solid #000;
+    background-color: white;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+.box table, tr, td
+{
+
+    border: 1px solid #000;
+    border: none;
+}
+.form-data table{
+    border-spacing: 20px;
+    border-collapse: collapse;
+   padding: 10px;
+    width: 90%;
+    min-height: 120px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.box h1{
+    margin-left: 38px;
+    padding: 10px;
+}
+.form-data td{
+    padding: 8px;
+}
+input[type = "text"],input[type="email"],input[type="number"],input[type="password"]
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    height: 45px;
+    padding: 8px;
+    font-size: 20px;
+}
+label
+{
+    padding: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+input[type="button"]
+{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    font-size: larger;
+    color: white;
+     background: linear-gradient(to bottom right, #59bee5, #ce81f4);
+     border-radius: 5px;
+     
+    
+}
+#gender{
+    font-weight: normal;
+}
+#genderlabel{
+   
+    font-size: 25px;
+}
+#button{
+    text-align: center;
+    /* border: none; */
+}
+#genderinput{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.form-data {
+    margin-bottom: 60px;
+}
